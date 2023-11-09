@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carga de Prodcutos</title>
+    <link href="Style-carga-productos/main-carga-producto.css" rel="stylesheet">
+    <link href="Style-carga-productos/header-carga-producto.css" rel="stylesheet">
+    <link rel="stylesheet" href="Style-carga-productos/footer-carga-producto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="header__principal">
+            <div class="container__izquierdo">
+                <div class="container__logo">
+                    <img  class="logo" src="imagen/Logo.png" alt="logo AluraGeek">
+                </div>
+                <div class="container__search">
+                    <input class="search" type="text"  placeholder="Que deseas buscar">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>    
+        
+            <div class="container__boton">
+                <button class="boton__login" data-btn-login="">Menu Administrativo</button>
+            </div>
+        </section>
+          
+    </header>
+
+    <main class="conteiner__main">
+
+        <form class="box">
+            <p class="iniciar">Agregar Nuevo Producto</p>
+            <input class="url__producto" type="url" placeholder="escriba la url del producto" required>
+             <!-- <div class="linea"></div> -->
+            <input class="categoria__producto" type="texto" placeholder="Escriba la categoria" required>
+            <!--<div class="linea__dos"></div>-->
+            <input class="nombre__producto" type="texto" placeholder="Escriba el nombre del producto" required>
+            <input class="precio__producto" type="texto" placeholder="Escriba el precio del producto" required>
+            <textarea class="detalle__producto" type="text" placeholder="Escribe el detalle del producto" required minlength="10" maxlength="120"></textarea>
+            <button class="btn__agregar" data-btn-entrar>Agregar Producto</button>
+        </form>
+
+    </main>
+
+    <footer>
+        <div class="Container__footer">
+            <div class="prueba">
+                <div>
+                    <img class="logo__footer" src="imagen/Logo.png" alt="logo alura">
+                </div>
+                <div class="container__navegador">
+                    <nav>
+                        <ul class="navegador__footer">
+                            <p class="footer__enlace">Quienes somos</p>
+                            <p class="footer__enlace">Política de privacidad</p> 
+                            <p class="footer__enlace">Programa de Fidelidad</p> 
+                            <p class="footer__enlace">Nuestras Tiendas</p>
+                            <p class="footer__enlace">Quiero ser franquisiado</p> 
+                            <p class="footer__enlace">Anuncie Aqui</p>
+                        </ul>
+                    </nav>
+                </div>    
+            </div>
+           
+            <form class="contactos" data-contantos="">
+                <p class="invitacion">Habla con nosotros</p>
+                <input class="dato__nombre" type="text" placeholder="Nombre" required minlength="3" maxlength="40">
+                <textarea class="dato__mensaje" type="text" placeholder="Escribe un mensaje" required minlength="10" maxlength="120"></textarea>
+                <button class="btn__enviar" type="submit" data-enviar="">Enviar mensaje</button>
+            </form>
+        </div>
+
+        <div class="creditos">
+            <p>Desarrollado por Nicolás Sánchez</p>
+            <p>2021</p>
+        </div>
+</footer>

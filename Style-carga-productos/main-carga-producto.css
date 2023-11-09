@@ -1,0 +1,148 @@
+.conteiner__main{
+    width: 1440px;
+    height:491px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+   
+}
+
+.box{
+    width: 559px;
+    height: 491px;
+    top: 206px;
+    left: 508px;
+  
+   
+}
+.iniciar{   
+    width: 375px;
+    height: 38px;
+    color: #464646;
+    font-size: 32px;
+    margin: 10px 0px;
+    line-height: 37.57px;
+   
+}
+.url__producto{
+    width: 559px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+.categoria__producto{
+    width: 559px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+.nombre__producto{
+    width: 559px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+.precio__producto{
+    width: 559px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+.detalle__producto{
+    width: 559px;
+    height: 56px;
+    border-radius: 4px;
+    border: none;
+    background: #FFFFFF;
+    margin-bottom: 10px;
+}
+.btn__agregar{
+    width: 559px;
+    height: 51px;
+    padding: 16px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+
+/*.linea{
+    width: 423px;
+    top: 63.11px;
+    background-color: #C8C8C8;
+    height: 1px;
+}
+.linea__dos{
+    width: 423px;
+    line-height: 1px;
+    background-color: #C8C8C8;
+    height: 1px;
+    top: 61.72px;
+    left: 0.31px;
+}*/
+.btn__agregar:hover{
+    border-color: #464646;
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .conteiner__main{
+        width: auto;
+    }
+    .btn__agregar{
+        width: 50%;
+        height: auto;
+        display: block;
+        margin: 10px 25%;
+        
+    }
+}
+
+/* celulares*/
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .conteiner__main{
+        width: auto;
+        padding: 10px;
+        display: inline-flex;
+    }
+    .box{
+        width: 360px;
+        margin-bottom: 10px;
+    }
+    .url__producto{
+        width: 316px;
+        margin-bottom: 10px;
+
+    }
+
+    .categoria__producto{
+        width: 316px;
+        margin-bottom: 10px;
+
+    }
+    .nombre__producto{
+        width: 316px;
+        margin-bottom: 10px;
+    }
+    .precio__producto{
+        width: 316px;
+        margin-bottom: 10px;
+
+    }
+    .detalle__producto{
+        width: 316px;
+        margin-bottom: 10px;
+
+    }
+    .btn__agregar{
+        width: 316px;  
+        margin-bottom: 10px;
+    }
+}

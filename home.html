@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Login</title>
+    <link href="Style-home/header-home.css" rel="stylesheet">
+    <link href="Style-home/main-home.css" rel="stylesheet">
+    <link href="Style-home/footer-home.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header> 
+        <section class="header__principal">
+            <div class="container__izquierdo">
+                <div class="container__logo">
+                    <img  class="logo" src="imagen/Logo.png" alt="logo AluraGeek">
+                </div>
+                <div class="container__search">
+                    <input class="search" type="text"  placeholder="Que deseas buscar">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>    
+        </section>
+    </header>
+
+    <main class="conteiner__main">
+
+        <form class="box">
+            <p class="iniciar">Iniciar Seción</p>
+            <input class="dato__email" type="email" placeholder="Escriba el correo electrónico" required>
+             <!-- <div class="linea"></div> -->
+            <input class="dato__contraseña" type="password" placeholder="Escriba su contraseña" required>
+            <!--<div class="linea__dos"></div>-->
+            <button class="btn__entrar" data-btn-entrar>Entrar</button>
+        </form>
+
+    </main>
+
+     <footer id="footer__general">
+            <div class="container__footer">
+                <div class="contenido">
+                    <div>
+                        <img class="logo__footer" src="imagen/Logo.png" alt="logo alura">
+                    </div>
+                    <div class="container__navegador">
+                        <nav>
+                            <ul class="navegador__footer">
+                                <p class="footer__enlace">Quienes somos</p>
+                                <p class="footer__enlace">Política de privacidad</p> 
+                                <p class="footer__enlace">Programa de Fidelidad</p> 
+                                <p class="footer__enlace">Nuestras Tiendas</p>
+                                <p class="footer__enlace">Quiero ser franquisiado</p> 
+                                <p class="footer__enlace">Anuncie Aqui</p>
+                            </ul>
+                        </nav>
+                    </div>    
+            
+                    <form class="contactos">
+                        <p class="invitacion">Habla con nosotros</p>
+                        <input class="dato__nombre" type="text" placeholder="Nombre" required minlength="3" maxlength="40">
+                        <input class="dato__mensaje" type="text" placeholder="Escribe un mensaje" required minlength="10" maxlength="120">
+                        <button class="btn__enviar" type="submit">Enviar mensaje</button>
+                    </form>
+                </div>     
+            </div>
+
+            <div class="creditos">
+                <p>Desarrollado por Nicolás Sánchez</p>
+                <p>2021</p>
+            </div>
+        <script href="funciones.js"></script>
+    </footer>
+</body>

@@ -1,0 +1,143 @@
+.Container__footer{
+    width: 1440;
+    height: 368px;
+    padding: 64px;
+    background-color: #EAF2FD;
+    display: flex;
+    justify-content: space-between;
+}
+.logo__footer{
+    width: 176px;
+    height: 50px;
+}
+.container__navegador{
+    display: flex;
+    width: 176px;
+    height: 234px;
+}
+.navegador__footer{
+}
+.prueba{
+    display: contents;
+}
+.footer__enlace{
+    width: 176px;
+    height: 19px;
+    padding: 5px;
+    color: #464646;
+}
+.contactos{
+    display: grid;
+    width: 560px;
+    height: 240px;
+    align-items: end;
+}
+.invitacion{
+    height: 0px;;
+    padding: 0px;
+    margin: 0px 0px 10px;
+    
+}
+.dato__nombre{
+    width: 560px;
+    height: 56px;
+}
+.dato__mensaje{
+    width: 560px;
+    height: 56px;
+}
+.btn__enviar{
+    width: 144px;
+    height: 51px;
+    padding: 16px;
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+}
+.btn__enviar:hover{
+    transform: scale(1.1);
+}
+.creditos{
+    width: 1440px;
+    height: 102px;
+    background-color: #FFFFFF;
+    text-align: center;
+  
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container__footer{
+        display: flex;
+        width: auto;
+        justify-content: space-around;
+    }
+    .prueba{
+        display: block;
+    }
+    .footer__enlace{
+        padding: 0px;
+    }
+    .invitacion{
+        width: auto;
+    }
+    .dato__nombre{
+        width: 332px ;
+    }
+    .dato__mensaje{
+        width: 332px;
+    }
+    .btn__enviar{
+        width: 150px;
+       
+    }
+    .container__prueba{
+        display: block;
+        padding: 0px 60px 0px 0px;
+    }
+    .contactos{
+        width: auto;
+    }
+    .creditos{
+        width: auto;
+        height: 102px;
+    }
+}
+
+/* celulares*/
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .Container__footer{
+        width: auto;
+        height: 512px;
+        display: block;
+        padding: 10px;
+    }
+
+    .logo__footer{
+        display: flex;
+        margin: auto;
+    }
+    .navegador__footer{
+        padding: 0px;
+    }
+    .container__navegador{
+        display: contents;
+        text-align: center;
+    
+    }
+    .dato__nombre {
+        width: 328px;
+    }
+    .dato__mensaje{
+        width: 328px;
+    }
+    .footer__enlace{
+        width: auto;
+        padding: 0px;
+    }
+    .btn__enviar{
+        display: flex;
+        
+    }
+    .creditos{
+        display: inline;
+    }
+
+}

@@ -1,0 +1,117 @@
+
+.body{
+    width: 1440px;
+}
+
+.header__principal{
+    width: 1136px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 152px 0px 152px;
+}
+.container__izquierdo{
+    display: flex;
+    align-items: center;
+    
+}
+.container__logo{
+    width: 176px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.container__search{
+    position: relative;
+}
+.search {
+    width: 393px;
+    height: 30px;
+    border-radius: 20px;
+    padding-right: 30px;
+    margin-left: 30px;
+
+}
+.fas{
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+.busqueda{
+    background-color: #F5F5F5;
+    width: 393px;
+    border-radius: 20px;
+    padding: 8px 16px 8px 16px;
+
+}
+.container__boton{
+    padding: 20px;
+
+}
+.boton__login{
+    background-color: transparent;
+    background: 100%;
+    color: #2A7AE4;
+    width: 182px;
+    height: 51px;
+    border: 1px solid #2A7AE4;
+    padding: 16px;
+    gap: 10px;
+    cursor: pointer;
+}
+.boton__login:hover {
+    background-color: #2A7AE4;
+    color: #FFFFFF;
+    border-color: black;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .header__principal{
+        width: auto;
+        display: flex;
+        padding: 0px;
+    }
+    .busqueda{
+        margin: 20px;
+    }
+}
+
+/* celulares*/
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .body{
+        width: 100%;
+    }
+    .container__search{
+        display: none;
+    
+    }
+    .header__principal{
+        width: 100%;
+        justify-content: space-between;
+        padding: 0%;
+    }
+    .container__logo{
+        width: 100px;
+        height: 28px;
+       
+    }
+    .boton__login{
+        width: 133px;
+        height: 40px;
+        text-align: center;
+        
+    }
+    .busqueda{
+        display: none;
+    }
+    .container__boton{
+        padding: 10px;
+    }
+    .logo{
+        padding: 10px
+    }
+}

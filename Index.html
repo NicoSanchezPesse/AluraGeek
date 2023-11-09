@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link href="./Style/header.css" rel="stylesheet">
+    <link href="./Style/banner.css" rel="stylesheet">
+    <link href="./Style/productos.css" rel="stylesheet">
+    <link href="./Style/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <section class="header__principal">
+            <div class="container__izquierdo">
+                <div class="container__logo">
+                    <img  class="logo" src="imagen/Logo.png" alt="logo AluraGeek">
+                </div>
+                <div class="container__search">
+                    <input class="search" type="text"  placeholder="Que deseas buscar">
+                    <i class="fas fa-search"></i>
+                </div>
+            </div>    
+        
+            <div class="container__boton">
+                <button class="boton__login" data-btn-login="">Login</button>
+            </div>
+        </section>
+          
+    </header>
+    <main>
+        <div class="container__banner">
+            <div class="text__banner">
+                <h1 class="promocional">Febrero Promocional</h1>
+                <p class="descuento">Productos selecionados con 33% de descuento</p>
+                <a  class="consola" href="#home.html" type="button" data-btn-consola>Ver Consola</a>   
+            </div>
+        </div>
+        <div class="container__productos">
+            <div class="titulos__productos">
+                <h3 class="titulo">Star Wars</h3>
+                <a class="Ver__todo" href="#">Ver Todo</a>
+            </div>
+            <ul class="linea__producto">
+                <li class="linea__individual">
+                    <div class="detalles__productos">
+                        <img class="linea__imagen" src="imagenes/sw1.webp" alt="taza star Wars">
+                        <p class="nombre__producto">Producto XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/sw2.webp" alt="star wars">
+                        <p class="nombre__producto">Producto XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/sw3.webp" alt="yoda">
+                        <p class="nombre__producto">Producto XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/sw4.webp" alt="star wars">
+                        <p class="nombre__producto">Producto XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual quitar">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/sw5.webp" alt="yoda">
+                        <p class="nombre__producto">Producto XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual quitar">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/sw6.webp" alt="star wars">
+                        <p class="nombre__producto">Producto XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li> 
+            </ul>
+        </div>
+
+        <div class="container__productos" id="consola">
+            <div class="titulos__productos">
+                <h3 class="titulo">Consolas</h3>
+                <a class="Ver__todo" href="#">Ver Todo</a>
+            </div>
+            <ul class="linea__producto">
+                <li class="linea__individual" data-producto>
+                    <div class="detalles__productos">
+                        <img class="linea__imagen" src="imagenes/c1.webp" alt="control xbox">
+                        <p class="nombre__producto">Control XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/c2.webp" alt="control consola xyz">
+                        <p class="nombre__producto">Control y consola XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/c3.webp" alt="consola xbox">
+                        <p class="nombre__producto">Consola XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/c4.webp" alt="controles">
+                        <p class="nombre__producto">Control XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual quitar">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/c5.webp" alt="consola">
+                        <p class="nombre__producto">Consola XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual quitar">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/c6.webp" alt="game boy">
+                        <p class="nombre__producto">Game Boy Color</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container__productos">
+            <div class="titulos__productos">
+                <h3 class="titulo">Diversos</h3>
+                <a class="Ver__todo" href="#">Ver Todo</a>
+            </div>
+            <ul class="linea__producto">
+                <li class="linea__individual">
+                    <div class="detalles__productos">
+                        <img class="linea__imagen" src="imagenes/d1.webp" alt="remera atari">
+                        <p class="nombre__producto">Camisa Atari</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/d2.webp" alt="camisa snes">
+                        <p class="nombre__producto">Camisa SNES</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/d3.webp" alt="sonic">
+                        <p class="nombre__producto">Control y consola XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/d4.webp" alt="consola">
+                        <p class="nombre__producto">Control y consola XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual quitar">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/d5.webp" alt="lentes raalidad virtual">
+                        <p class="nombre__producto">Control y consola XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+                <li class="linea__individual quitar">
+                    <div>
+                        <img class="linea__imagen" src="imagenes/d6.webp" alt="muñeco">
+                        <p class="nombre__producto">Productos XYZ</p>
+                        <p class="precio__producto">$ 60.00</p>
+                        <a class="link__producto">Ver porducto</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <footer>
+            <div class="Container__footer">
+                <div class="prueba">
+                    <div>
+                        <img class="logo__footer" src="imagen/Logo.png" alt="logo alura">
+                    </div>
+                    <div class="container__navegador">
+                        <nav>
+                            <ul class="navegador__footer">
+                                <p class="footer__enlace">Quienes somos</p>
+                                <p class="footer__enlace">Política de privacidad</p> 
+                                <p class="footer__enlace">Programa de Fidelidad</p> 
+                                <p class="footer__enlace">Nuestras Tiendas</p>
+                                <p class="footer__enlace">Quiero ser franquisiado</p> 
+                                <p class="footer__enlace">Anuncie Aqui</p>
+                            </ul>
+                        </nav>
+                    </div>    
+                </div>
+               
+                <form class="contactos" data-contantos="">
+                    <p class="invitacion">Habla con nosotros</p>
+                    <input class="dato__nombre" type="text" placeholder="Nombre" required minlength="3" maxlength="40">
+                    <textarea class="dato__mensaje" type="text" placeholder="Escribe un mensaje" required minlength="10" maxlength="120"></textarea>
+                    <button class="btn__enviar" type="submit" data-enviar="">Enviar mensaje</button>
+                </form>
+            </div>
+
+            <div class="creditos">
+                <p>Desarrollado por Nicolás Sánchez</p>
+                <p>2021</p>
+            </div>
+    </footer>
+    <script src="funciones.js"></script>
+</body>

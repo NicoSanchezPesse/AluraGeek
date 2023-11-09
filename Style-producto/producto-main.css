@@ -1,0 +1,115 @@
+
+.container__productos{
+    width: 1132px;
+    padding: 30px 152px 0px 152px;
+}
+.titulos__productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1133px;
+    height: 38px;
+    padding-bottom: 15px;
+
+}
+.titulo{
+    width: 350px;
+    height: 38px;
+    font-size: 32px;
+    color: #464545;
+}
+.Agregar__producto{
+    width: 163px;
+    height: 52px;
+    padding: 16px;
+    background-color: #2A7AE4;
+}
+
+/* productos individuales*/
+
+.linea__producto{ 
+    list-style: none;
+    width: 1136px;
+    height: 252px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+}
+.linea__individual{
+    width: 176px;
+    height: 252px;
+}
+
+.linea__imagen{
+    width: 176px;
+    height: 132px;
+
+}
+.nombre__producto{
+    width: 176px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16.44px;
+}
+.precio__producto{
+    width: 176px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18.78px;
+}
+.link__producto{
+    width: 176px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16.44px;
+    color: #464646;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container__productos{
+        width: auto;
+        padding: 32px;
+        
+    }
+    .titulos__productos{
+        width: 704px;
+    }
+    .titulo{
+        font-size: 22px;
+    }
+    .linea__individual{
+        width: 164px;
+    }
+    .linea__producto{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(4, 0fr);
+        grid-template-rows: repeat(-3, 1fr);
+
+    }
+
+}
+
+/* celulares*/
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .container__productos{
+        width: auto;
+       padding: 10px;
+       display: block;
+    }
+    .titulos__productos{
+        width: auto;
+        justify-content: space-between;
+    }
+    .linea__producto{
+            width: auto;
+            height: auto;
+            display: grid;
+            grid-template-columns: repeat(2, 0fr);
+            grid-template-rows: repeat(2, 1fr);
+    }
+
+}

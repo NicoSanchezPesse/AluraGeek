@@ -1,0 +1,148 @@
+
+.container__productos{
+    width: 1132px;
+    padding: 30px 152px 0px 152px;
+}
+.titulos__productos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1133px;
+    height: 38px;
+    padding-bottom: 15px;
+
+}
+.titulo{
+    width: 148px;
+    height: 38px;
+    font-size: 32px;
+    color: #464545;
+}
+.Ver__todo{
+    width: 97px;
+    height: 24px;
+    cursor: pointer;
+}
+/* productos individuales*/
+
+.linea__producto{ 
+    list-style: none;
+    width: 1136px;
+    height: 252px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+}
+.linea__individual{
+    width: 176px;
+    height: 252px;
+}
+
+.linea__imagen{
+    width: 176px;
+    height: 154px;xs
+
+}
+.nombre__producto{
+    width: 176px;
+    height: 16px;
+    font-size: 14px;
+    line-height: 16.44px;
+}
+.precio__producto{
+    width: 176px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 18.78px;
+}
+.link__producto{
+    width: 100px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 18.78px;
+    font-weight: bold;
+    color: #2A7AE4;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .container__productos{
+        width: auto;
+        padding: 10px;
+        text-align: center
+    }
+    .titulos__productos{
+        width: 704px;
+        text-align: initial;
+        padding-bottom: 5px; 
+    }
+    .titulo{
+        font-size: 22px;
+        margin: 5px;
+    }
+    .Ver__todo{
+        text-align: -webkit-center;
+    }
+    .quitar{
+        display: none;
+    }
+    .linea__individual{
+        width: 164px;
+        margin: 0px 15px 0px 0px;
+    }
+    .linea__producto{
+        justify-content: flex-start;
+        margin: 0px;
+    }
+     .consola{
+        padding: 10px;
+    }
+}
+
+
+
+/* celulares*/
+@media screen and (min-width: 360px) and (max-width: 767px) {
+    .container__productos{
+        width: auto;
+        padding: 0px;
+        margin: 2px 0px 2px 0px;
+        display: block;
+    }
+    .titulos__productos{
+        width: auto;
+        justify-content: space-between;
+        padding: 0px;
+
+    }
+    .titulo{
+        margin: 5px 0px 5px 0px;
+        font-size: 22px;
+        height: auto;
+
+    }
+    .linea__producto{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px;
+        width: 360px;
+        margin-top: 10px;
+        margin-bottom: 250px;
+    }
+    .quitar{
+        display: none;
+    }
+    .nombre__producto{
+        margin: 3px;
+    }
+    .precio__producto{
+        margin: 5px;
+    }
+    .Ver__todo{
+         text-align: center;
+    }
+       
+
+}
